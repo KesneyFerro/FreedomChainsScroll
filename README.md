@@ -1,27 +1,19 @@
 # Freedom Chains
-<br>
-
 [🇺🇸 Documentation](#USDocumentation)
 [🇧🇷 Documentation](#BRDocumentation)
 
-<br>
-
-___
-
 <a name="USDocumentation"></a>
 
-🎨 [Figma](https://www.figma.com/file/9Ru5jjxZA5mLomAgVARDsQ/FreedomChains?type=design&node-id=0%3A1&mode=design&t=zAf4jQXI7qiX4nqA-1)
-
-🎬 [Pitch](https://youtu.be/xaboVlYkYhM)
-
-<br>
-
-🎬 [Navigating through Freedom Chains](https://youtu.be/1hJH4Qg-MBw)
-
- 
 ⚖️ Promoting justice and humanity in the Brazilian penal system, Freedom Chains offers a transparent, secure, and anonymous view of prisoners' behavioral history, strengthening the resocialization process and ensuring the rights of the incarcerated population.
 
 ⚙️ Solution developed using NextJS, ReactJs, TypeScript, Scroll
+
+🔧 [AI Demonstration](https://youtu.be/5pOCFKEs9KI)
+🎨 [Figma](https://www.figma.com/file/9Ru5jjxZA5mLomAgVARDsQ/FreedomChains?type=design&node-id=0%3A1&mode=design&t=zAf4jQXI7qiX4nqA-1)
+🎬 [Pitch](https://youtu.be/xaboVlYkYhM)
+<br>
+🎬 [Navigating through Freedom Chains](https://youtu.be/1hJH4Qg-MBw)
+
 
 ## Index
 
@@ -91,6 +83,8 @@ Therefore, more than just technical efficiency, this solution reflects a deep co
 
 1. [SWOT Analysis](#SWOTAnalysis) - What is the internal and external environment of operation in the Brazilian prison system?
 2. [Value Proposition Canvas](#valuePropositionCanvas) - Why is Freedom Chains the right path for resocialization processes?
+3. [Personas](#personas) - Whose's lifes are we trying to make easier?
+4. [User Stories](#userstories) - What our personas expect from us? What they want us to do?
 
 <br>
 
@@ -191,6 +185,95 @@ The Value Proposition Canvas is a visual and strategic tool used for the develop
 By integrating the blockchain platform into the prison system, administrators will be able to access a tool that not only facilitates record management but also reinforces trust in the system, providing a verifiable and transparent way to track the trajectory and behavior of inmates, contributing significantly to reform and continuous improvement of penitentiary practices. Additionally, the law must undoubtedly be followed, given that all records will be deployed and cannot be hidden.
 
 The detailed analysis of the Value Proposition Canvas reveals a robust and innovative solution for the challenges faced by prison systems. By integrating blockchain technology, the proposed platform seeks not only to modernize but also to fundamentally reform inmate management, offering unprecedented transparency, security, and efficiency. With a clear focus on customer benefits, the proposal aims to alleviate the pains faced by prison agents and administrators, providing a reliable and transparent solution for managing sensitive data. At the same time, it offers tangible gains, such as increased fairness in the treatment of inmates, transparency for friends and family, and improved regulatory compliance.
+
+<a name="personas"></a>
+
+### Personas
+
+1. **Prison Staff Member - Sofia:**
+   - **Background:** Sofia is a dedicated prison staff member with years of experience working within the Brazilian prison system. She understands the challenges faced by both inmates and staff and is passionate about implementing solutions that can improve the rehabilitation process.
+   - **Responsibilities:** As part of her role, Sofia is responsible for adding inmates to the Freedom Chains platform upon their admission to the prison. She ensures that each inmate's information is accurately recorded, including behavioral reports and participation in rehabilitation programs.
+   - **Motivation:** Sofia is motivated by the opportunity to contribute to positive change within the prison system. She appreciates that her efforts in adding inmates to the platform are recognized and rewarded with tokens that can be used to purchase days off or other incentives, enhancing morale and motivation among prison staff.
+   - **Goals:** Sofia's primary goal is to ensure that inmates' progress and behaviors are accurately documented within the Freedom Chains platform, ultimately leading to improved transparency and accountability within the prison system.
+
+2. **Inmate - Marcos:**
+   - **Background:** Marcos is an inmate serving a sentence in a Brazilian prison. He is determined to use his time in prison productively and is actively engaged in rehabilitation programs and educational activities.
+   - **Needs:** Marcos recognizes the importance of having his behavior accurately registered within the Freedom Chains platform. He understands that these records can serve as evidence of his progress and rehabilitation efforts, potentially leading to sentence reductions or early release.
+   - **Motivation:** Marcos is motivated to participate in the Freedom Chains platform as it provides him with a sense of agency and control over his own rehabilitation journey. He sees it as an opportunity to demonstrate his commitment to personal growth and positive change.
+   - **Goals:** Marcos's primary goal is to ensure that his participation in rehabilitation programs and positive behaviors are consistently recorded within the Freedom Chains platform, ultimately contributing to a more favorable evaluation of his progress by prison staff and judicial authorities.
+
+3. **Judge - Ana:**
+   - **Background:** Ana is a respected judge within the Brazilian judicial system, with extensive experience presiding over criminal cases, including those involving inmates and rehabilitation efforts.
+   - **Responsibilities:** As part of her role, Ana is tasked with evaluating the progress and behavior of inmates to determine their eligibility for sentence reductions or parole. She relies on accurate and comprehensive reports to make informed decisions regarding their cases.
+   - **Needs:** Ana recognizes the importance of having access to simplified yet detailed reports of inmates' behavior and rehabilitation progress. She values efficiency in the judicial process and seeks tools that can facilitate faster and more informed decision-making.
+   - **Motivation:** Ana is motivated by the opportunity to promote fairness and justice within the criminal justice system. She understands the potential impact of her decisions on the lives of inmates and is committed to ensuring that they receive fair and proportionate treatment.
+   - **Goals:** Ana's primary goal is to receive simplified reports from the Freedom Chains platform that provide clear insights into inmates' behavior and rehabilitation efforts. These reports enable her to make more informed judgments, ultimately contributing to a more efficient and equitable judicial process.
+
+These personas represent key stakeholders within the Freedom Chains ecosystem, each with their own motivations, needs, and goals aligned with the objectives of the platform. By understanding and addressing the unique perspectives of these personas, Freedom Chains can effectively cater to the diverse needs of its users and contribute to positive outcomes within the Brazilian prison system.
+
+<a name="personas"></a>
+
+### User Stories
+
+#### User Story for Prison Staff Member - Sofia
+
+| **As a**       | Prison staff member (Sofia)  |
+|----------------|------------------------------|
+| **I want to**  | Add new inmates to the Freedom Chains platform upon their admission to the prison |
+| **So that I can** | Ensure that each inmate's information, including behavioral reports and participation in rehabilitation programs, is accurately recorded within the system |
+| **Acceptance Criteria** | - Access the Freedom Chains platform upon inmate admission <br> - Fill out inmate information accurately, including behavioral reports and program participation <br> - Receive tokens as a reward for adding inmates to the platform <br> - Tokens can be redeemed for days off or other incentives |
+
+| **As a**       | Prison staff member (Sofia)  |
+|----------------|------------------------------|
+| **I want to**  | View and update inmate records within the Freedom Chains platform as needed |
+| **So that I can** | Ensure that inmate information remains up-to-date and accurate throughout their incarceration |
+| **Acceptance Criteria** | - Access inmate records within the Freedom Chains platform <br> - Update inmate information as needed, including behavioral reports and program participation <br> - Receive tokens as a reward for maintaining accurate records <br> - Tokens can be redeemed for days off or other incentives |
+
+| **As a**       | Prison staff member (Sofia)  |
+|----------------|------------------------------|
+| **I want to**  | Generate reports on inmate behavior and participation in rehabilitation programs |
+| **So that I can** | Monitor inmate progress and compliance with prison regulations, as well as provide evidence for parole hearings or sentence reductions |
+| **Acceptance Criteria** | - Access reporting tools within the Freedom Chains platform <br> - Generate comprehensive reports on inmate behavior and program participation <br> - Reports are easily accessible and formatted for presentation to judicial authorities <br> - Ensure the accuracy and integrity of generated reports |
+
+#### User Story for Inmate - Marcos
+
+| **As a**       | Inmate (Marcos)              |
+|----------------|------------------------------|
+| **I want to**  | Have my participation in rehabilitation programs and positive behaviors accurately recorded within the Freedom Chains platform |
+| **So that I can** | Provide evidence of my progress and rehabilitation efforts, potentially leading to sentence reductions or early release |
+| **Acceptance Criteria** | - Access the Freedom Chains platform as an inmate <br> - Ensure that my participation in rehabilitation programs is accurately recorded <br> - Verify that my positive behaviors are consistently documented within the system <br> - Receive confirmation of recorded activities for personal reference and potential use in judicial proceedings |
+
+| **As a**       | Inmate (Marcos)              |
+|----------------|------------------------------|
+| **I want to**  | Monitor my own progress and behavior within the Freedom Chains platform |
+| **So that I can** | Track my journey towards rehabilitation and identify areas for improvement |
+| **Acceptance Criteria** | - Access my personal profile within the Freedom Chains platform <br> - Review my participation in rehabilitation programs and behavioral reports <br> - Receive notifications or updates on my progress and any changes to my status within the system <br> - Use the platform as a tool for self-reflection and goal-setting |
+
+| **As a**       | Inmate (Marcos)              |
+|----------------|------------------------------|
+| **I want to**  | Receive incentives or rewards for active participation in rehabilitation programs |
+| **So that I can** | Feel motivated to continue my efforts towards personal growth and positive change |
+| **Acceptance Criteria** | - Understand the incentive structure within the Freedom Chains platform <br> - Receive tokens or rewards for completing rehabilitation activities or demonstrating positive behaviors <br> - Redeem tokens for privileges such as additional visitation hours or access to educational resources <br> - Experience a sense of accomplishment and recognition for my efforts |
+
+#### User Story for Judge - Ana
+
+| **As a**       | Judge (Ana)                  |
+|----------------|------------------------------|
+| **I want to**  | Receive simplified yet detailed reports on inmate behavior and rehabilitation progress from the Freedom Chains platform |
+| **So that I can** | Make informed decisions regarding parole hearings or sentence reductions based on accurate and comprehensive information |
+| **Acceptance Criteria** | - Access the Freedom Chains platform as a judicial authority <br> - Receive summarized reports on inmate behavior and program participation <br> - Ensure that reports are clear, concise, and contain relevant information for decision-making purposes <br> - Use the platform to review inmate progress and determine eligibility for parole or sentence reductions |
+
+| **As a**       | Judge (Ana)                  |
+|----------------|------------------------------|
+| **I want to**  | Have access to historical data and trends regarding inmate behavior and rehabilitation efforts |
+| **So that I can** | Identify patterns and track long-term progress among inmates, informing my decisions and recommendations for rehabilitation strategies |
+| **Acceptance Criteria** | - Access historical data and analytics within the Freedom Chains platform <br> - Review trends and patterns in inmate behavior and program participation over time <br> - Utilize data insights to assess the effectiveness of rehabilitation programs and identify areas for improvement <br> - Make data-driven recommendations for future strategies and interventions within the prison system |
+
+| **As a**       | Judge (Ana)                  |
+|----------------|------------------------------|
+| **I want to**  | Easily access and retrieve inmate records and reports within the Freedom Chains platform |
+| **So that I can** | Streamline the judicial process and ensure efficiency in reviewing inmate cases and making decisions |
+| **Acceptance Criteria** | - Navigate the Freedom Chains platform to locate specific inmate records and reports <br> - Retrieve requested information quickly and efficiently <br> - Ensure that records and reports are accurate, up-to-date, and easily accessible <br> - Use the platform to expedite the review process and make timely decisions regarding inmate cases |
 
 <a name="technologyDetails"></a>
 
@@ -609,29 +692,22 @@ Scroll is a notably efficient blockchain platform, distinguished by its operatio
 
 
 # Freedom Chains
-
-<br>
-
 [🇺🇸 Documentation](#USDocumentation)
 [🇧🇷 Documentation](#BRDocumentation)
-
-<br>
 
 ___
 
 <a name="BRDocumentation"></a>
 
-🎨 [Figma](https://www.figma.com/file/9Ru5jjxZA5mLomAgVARDsQ/FreedomChains?type=design&node-id=0%3A1&mode=design&t=zAf4jQXI7qiX4nqA-1)
-
-🎬 [Pitch](https://youtu.be/xaboVlYkYhM)
-
-<br>
-
-🎬 [Navegando pela FreedomChains](https://youtu.be/1hJH4Qg-MBw)
-
 ⚖️ Promovendo justiça e humanidade no sistema penal brasileiro, Freedom Chain oferece uma visão transparente, segura e anônima do histórico comportamental dos presos, fortalecendo o processo de ressocialização e garantindo os direitos da população carcerária.
 
 ⚙️ Solução desenvolvida usando NextJS, ReactJs, Typescript, Scroll
+
+🔧 [Demonstração da IA](https://youtu.be/5pOCFKEs9KI)
+🎨 [Figma](https://www.figma.com/file/9Ru5jjxZA5mLomAgVARDsQ/FreedomChains?type=design&node-id=0%3A1&mode=design&t=zAf4jQXI7qiX4nqA-1)
+🎬 [Pitch](https://youtu.be/xaboVlYkYhM)
+<br>
+🎬 [Navegando pela FreedomChains](https://youtu.be/1hJH4Qg-MBw)
 
 ## Índice
 
@@ -701,6 +777,7 @@ Portanto, mais do que apenas eficiência técnica, essa solução reflete um com
 
 1. [Análise SWOT](#analiseSWOT) - Como é o ambiente interno e externo da atuação no sistema carcerário do Brasil.
 2. [Canvas de Proposta de Valor](#canvasDePropostaDeValor) - Por que a Freedom Chains é o caminho certo para os processos de ressocialização?
+3. [Personas](#personasbr) - A vida de quem estamos tentando facilitar?
 
 <br>
 
@@ -813,6 +890,31 @@ O Canva de Proposta de Valor é uma ferramenta visual e estratégica utilizada p
 Ao integrar a plataforma blockchain no sistema prisional, os administradores poderão acessar uma ferramenta que não só facilita a gestão de registros como também reforça a confiança no sistema, fornecendo uma maneira verificável e transparente de acompanhar a trajetória e o comportamento dos detentos, contribuindo significativamente para a reforma e a melhoria contínua das práticas penitenciárias. Além disso, indiscutivelmente a lei deverá ser cumprida, tendo em vista que todos os registros estarão deployados e não podem ser escondidos.
 
 A análise detalhada do Canva de Proposta de Valor revela uma solução robusta e inovadora para os desafios enfrentados pelos sistemas prisionais. Ao integrar tecnologia blockchain, a plataforma proposta busca não apenas modernizar, mas também reformar fundamentalmente a gestão de detentos, oferecendo transparência, segurança e eficiência sem precedentes.Com um foco claro nos benefícios para os clientes, a proposta visa aliviar as dores enfrentadas por agentes e administradores prisionais, proporcionando uma solução confiável e transparente para o gerenciamento de dados sensíveis. Ao mesmo tempo, oferece ganhos tangíveis, como aumento da equidade no tratamento dos detentos, transparência para familiares e amigos, e melhoria da conformidade regulatória.
+
+<a name="personasbr"></a>
+
+### Personas
+
+1. **Membro da Equipe da Prisão - Sofia:**
+   - **Antecedentes:** Sofia é uma dedicada funcionária prisional com anos de experiência trabalhando no sistema prisional brasileiro. Ela compreende os desafios enfrentados tanto pelos detentos quanto pelos funcionários e está apaixonada por implementar soluções que possam melhorar o processo de reabilitação.
+   - **Responsabilidades:** Como parte de seu papel, Sofia é responsável por adicionar detentos à plataforma Freedom Chains após a admissão na prisão. Ela garante que as informações de cada detento sejam registradas com precisão, incluindo relatórios comportamentais e participação em programas de reabilitação.
+   - **Motivação:** Sofia é motivada pela oportunidade de contribuir para uma mudança positiva dentro do sistema prisional. Ela aprecia que seus esforços em adicionar detentos à plataforma sejam reconhecidos e recompensados com tokens que podem ser usados para comprar folgas ou outros incentivos, aumentando a moral e a motivação entre os funcionários da prisão.
+   - **Objetivos:** O principal objetivo de Sofia é garantir que o progresso e o comportamento dos detentos sejam registrados com precisão dentro da plataforma Freedom Chains, o que, em última análise, leva a uma maior transparência e responsabilidade dentro do sistema prisional.
+
+2. **Detento - Marcos:**
+   - **Antecedentes:** Marcos é um detento cumprindo pena em uma prisão brasileira. Ele está determinado a utilizar seu tempo na prisão de forma produtiva e está ativamente envolvido em programas de reabilitação e atividades educacionais.
+   - **Necessidades:** Marcos reconhece a importância de ter seu comportamento registrado com precisão dentro da plataforma Freedom Chains. Ele entende que esses registros podem servir como evidência de seu progresso e esforços de reabilitação, potencialmente levando a reduções de sentença ou libertação antecipada.
+   - **Motivação:** Marcos está motivado a participar da plataforma Freedom Chains, pois ela lhe proporciona uma sensação de agência e controle sobre sua própria jornada de reabilitação. Ele vê isso como uma oportunidade de demonstrar seu comprometimento com o crescimento pessoal e a mudança positiva.
+   - **Objetivos:** O principal objetivo de Marcos é garantir que sua participação em programas de reabilitação e comportamentos positivos sejam registrados de forma consistente dentro da plataforma Freedom Chains, contribuindo assim para uma avaliação mais favorável de seu progresso por parte dos funcionários da prisão e das autoridades judiciais.
+
+3. **Juíza - Ana:**
+   - **Antecedentes:** Ana é uma juíza respeitada dentro do sistema judiciário brasileiro, com vasta experiência em presidir casos criminais, incluindo aqueles envolvendo detentos e esforços de reabilitação.
+   - **Responsabilidades:** Como parte de seu papel, Ana é encarregada de avaliar o progresso e o comportamento dos detentos para determinar sua elegibilidade para reduções de sentença ou liberdade condicional. Ela depende de relatórios precisos e abrangentes para tomar decisões informadas sobre seus casos.
+   - **Necessidades:** Ana reconhece a importância de ter acesso a relatórios simplificados, mas detalhados, do comportamento e do progresso de reabilitação dos detentos. Ela valoriza a eficiência no processo judicial e procura ferramentas que possam facilitar tomadas de decisão mais rápidas e informadas.
+   - **Motivação:** Ana é motivada pela oportunidade de promover justiça e equidade dentro do sistema de justiça criminal. Ela entende o impacto potencial de suas decisões na vida dos detentos e está comprometida em garantir que recebam tratamento justo e proporcional.
+   - **Objetivos:** O principal objetivo de Ana é receber relatórios simplificados da plataforma Freedom Chains que forneçam insights claros sobre o comportamento e os esforços de reabilitação dos detentos. Esses relatórios permitem que ela tome julgamentos mais informados, contribuindo assim para um processo judicial mais eficiente e equitativo.
+
+Essas personas representam partes interessadas-chave dentro do ecossistema Freedom Chains, cada uma com suas próprias motivações, necessidades e objetivos alinhados com os objetivos da plataforma. Ao entender e abordar as perspectivas únicas dessas personas, a Freedom Chains pode atender efetivamente às diversas necessidades de seus usuários e contribuir para resultados positivos dentro do sistema prisional brasileiro.
 
 <a name="detalhamentoDeTecnologias"></a>
 
